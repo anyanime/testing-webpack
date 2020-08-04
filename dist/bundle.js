@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"toggle\", function() { return toggle; });\nconst toggle = () => {\n    const btn = document.querySelector('button');\n    const e = document.querySelector('h1');\n\n    btn.addEventListener('click', () => {\n        e.innerHTML = \"God is faithful to fail us!!!!\"\n    })\n}\n\n//# sourceURL=webpack:///./src/component.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"toggle\", function() { return toggle; });\nvar toggle = function toggle() {\n  var btn = document.querySelector('button');\n  var e = document.querySelector('h1');\n  btn.addEventListener('click', function () {\n    e.innerHTML = \"God is faithful to fail us!!!!\";\n  });\n};\n\n//# sourceURL=webpack:///./src/component.js?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./component */ \"./src/component.js\");\n\n\nObject(_component__WEBPACK_IMPORTED_MODULE_0__[\"toggle\"])();\n\nconsole.log(\" Who is in the garden? \")\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./component */ \"./src/component.js\");\n\nObject(_component__WEBPACK_IMPORTED_MODULE_0__[\"toggle\"])();\nconsole.log(\" Who is in the garden? \");\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
